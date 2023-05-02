@@ -25,10 +25,35 @@ li {
   line-height: 19px;
 }
 
-.weather-app {
+.weather-app-wrapper {
   max-width: 600px;
   margin: 40px auto;
+}
+
+.weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 10px;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 3px;
+  height: 100px;
+  width: 100px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -32px;
 }
